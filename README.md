@@ -8,7 +8,7 @@
   
 </div>
 
-![App Screenshot](https://i.imgur.com/dyYDoHt.png)
+![App Screenshot](https://github.com/tejanadella28/whatapp-chat-analysis/blob/main/Screenshot%202025-06-05%20155057.png)
 
 A powerful tool to analyze your WhatsApp chats with beautiful visualizations. Get insights into your messaging patterns, most used words, emojis, and more!
 
