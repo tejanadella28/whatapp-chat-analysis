@@ -1,123 +1,50 @@
-Here's your modified `README.md` with the **Screenshots** section updated to include just the **home page** of your deployed Streamlit app:
+# 📊 WhatsApp Chat Analyzer
 
----
+<div align="center">
+  
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://chat-analysis-28.streamlit.app/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.7+](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
+  
+</div>
 
-````markdown
-<h1 align="center">💬 WhatsApp Chat Analyzer</h1>
+![App Screenshot](https://i.imgur.com/dyYDoHt.png)
 
-<p align="center">
-  A powerful tool to analyze WhatsApp chats with interactive visualizations using <strong>Streamlit</strong> and <strong>Python</strong>.
-</p>
-
-<p align="center">
-  <a href="https://chat-analysis-28.streamlit.app/">
-    🔗 <strong>Live Demo</strong>
-  </a>
-  •
-  <a href="#features">✨ Features</a>
-  •
-  <a href="#how-it-works">🛠 How It Works</a>
-  •
-  <a href="#tech-stack">📦 Tech Stack</a>
-  •
-  <a href="#local-setup">🚀 Local Setup</a>
-</p>
-
----
-
-## 📸 Screenshot
-
-<p align="center">
-  <img src="https://i.imgur.com/dyYDoHt.png" alt="Home Page" width="800"/>
-</p>
-
----
+A powerful tool to analyze your WhatsApp chats with beautiful visualizations. Get insights into your messaging patterns, most used words, emojis, and more!
 
 ## ✨ Features
 
-- 📈 **Daily & Monthly Timeline Analysis**
-- 👥 **User Activity Ranking (Group Chats)**
-- 🧠 **Most Common Words & Word Cloud**
-- 😊 **Emoji Usage Breakdown (Pie + Table)**
-- 🔗 **Link Extraction & Count**
-- 📦 Works on personal and group chats
+- 📈 **Chat Statistics**: Total messages, media shared, links exchanged
+- 👥 **User Analysis**: Compare activity between participants in group chats
+- 📅 **Timeline Visualizations**: Daily and monthly activity patterns
+- ☁️ **Word Cloud**: Visual representation of most frequently used words
+- 😂 **Emoji Analysis**: See which emojis dominate your conversations
+- 🔗 **Link Extraction**: Discover shared URLs and websites
+- 🎨 **Interactive UI**: Clean, user-friendly interface built with Streamlit
 
----
+## 🚀 Quick Start
 
-## 🛠 How It Works
+1. Export your WhatsApp chat (without media) from:
+   - Android: `More options → More → Export chat`
+   - iOS: Open chat → Tap contact name → Export Chat
 
-1. Export a WhatsApp chat from your phone as a `.txt` file (without media).
-2. Visit the live app 👉 [https://chat-analysis-28.streamlit.app/](https://chat-analysis-28.streamlit.app/)
-3. Upload the `.txt` file.
-4. Enjoy interactive insights about your conversation!
+2. Visit the live app: [WhatsApp Chat Analyzer](https://chat-analysis-28.streamlit.app/)
 
----
+3. Upload your chat file and explore your insights!
 
-## 📦 Tech Stack
-
-| Tool | Description |
-|------|-------------|
-| 🧑‍💻 Streamlit | Web App Framework |
-| 📊 Matplotlib / Seaborn | Data Visualizations |
-| 📄 Pandas | Data Manipulation |
-| 🔍 urlextract | Extracts URLs from messages |
-| ☁️ wordcloud | Generates a word cloud |
-| 😂 emoji | Analyzes emoji usage |
-
----
-
-## 🚀 Local Setup
-
-Clone the repo and run the app locally:
+## 🛠️ Local Installation
 
 ```bash
+# Clone the repository
 git clone https://github.com/your-username/whatsapp-chat-analyzer.git
 cd whatsapp-chat-analyzer
+
+# Create and activate virtual environment (recommended)
+python -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+
+# Install dependencies
 pip install -r requirements.txt
+
+# Run the app
 streamlit run app.py
-````
-
-> Make sure Python 3.7+ is installed.
-
----
-
-## 📁 Project Structure
-
-```
-📦 whatsapp-chat-analyzer
-├── app.py              # Streamlit app entry
-├── helper.py           # Stats, emoji, wordcloud helpers
-├── preprocessor.py     # Chat parsing and cleaning
-└── requirements.txt    # Required Python packages
-```
-
----
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome! Feel free to check [issues](https://github.com/your-username/whatsapp-chat-analyzer/issues) or open a PR.
-
----
-
-## 📜 License
-
-Licensed under the MIT License. See [`LICENSE`](LICENSE) for details.
-
----
-
-## 🌐 Connect with Me
-
-Let's connect on:
-
-* [LinkedIn](https://www.linkedin.com/in/tejanadella/)
-
----
-
-> Made with ❤️ using Streamlit and Python.
-
-```
-
----
-
-✅ Let me know if you want a **custom banner** or want to embed a **GIF demo** of your app instead of a static screenshot!
-```
