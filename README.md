@@ -36,7 +36,7 @@ A powerful tool to analyze your WhatsApp chats with beautiful visualizations. Ge
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/whatsapp-chat-analyzer.git
+git clone https://github.com/tejanadella28/whatapp-chat-analysis/tree/main
 cd whatsapp-chat-analyzer
 
 # Create and activate virtual environment (recommended)
