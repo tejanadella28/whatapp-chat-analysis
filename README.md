@@ -1,3 +1,7 @@
+Here's your modified `README.md` with the **Screenshots** section updated to include just the **home page** of your deployed Streamlit app:
+
+---
+
 ````markdown
 <h1 align="center">💬 WhatsApp Chat Analyzer</h1>
 
@@ -21,11 +25,11 @@
 
 ---
 
-## 📸 Screenshots
+## 📸 Screenshot
 
-| 📊 Statistics | ☁️ WordCloud | 😊 Emoji Analysis |
-|--------------|--------------|------------------|
-| ![Stats](https://i.imgur.com/dyYDoHt.png) | ![WordCloud](https://i.imgur.com/EmAJ3Cn.png) | ![Emoji](https://i.imgur.com/BZlWYzd.png) |
+<p align="center">
+  <img src="https://i.imgur.com/dyYDoHt.png" alt="Home Page" width="800"/>
+</p>
 
 ---
 
@@ -105,7 +109,7 @@ Licensed under the MIT License. See [`LICENSE`](LICENSE) for details.
 
 Let's connect on:
 
-* [LinkedIn](https://www.linkedin.com/in/tejanadella/) 
+* [LinkedIn](https://www.linkedin.com/in/tejanadella/)
 
 ---
 
@@ -115,11 +119,5 @@ Let's connect on:
 
 ---
 
-### 🔧 Customize:
-
-- Replace `your-username` with your GitHub username.
-- Replace `your-profile`, `your-handle` with your social links.
-- You can also upload **real screenshots** from your app and update the links in the screenshots section.
-
-Want me to generate the README with **real screenshots** from your deployed app? Just upload your `.txt` file or the screenshots, and I’ll help!
+✅ Let me know if you want a **custom banner** or want to embed a **GIF demo** of your app instead of a static screenshot!
 ```
